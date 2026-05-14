@@ -79,11 +79,11 @@ function feedbackReplyMail($html, $email)
         //Recipients
         $mail->setFrom(SMTP_UNAME, "Chị Kòi Quán");
         $mail->addAddress($email, $email);     // Add a recipient | name is option tên người nhận
-        $mail->addReplyTo(SMTP_UNAME, 'Tân Hồng IT');
+        $mail->addReplyTo(SMTP_UNAME, 'Hồng Điệp ');
         //$mail->addCC('CCemail@gmail.com');
         //$mail->addBCC('BCCemail@gmail.com');
         $mail->isHTML(true); // Set email format to HTML
-        $mail->Subject = 'Trả lời phản hồi của bạn | Quán Chị Kòi | By Tân Hồng IT';
+        $mail->Subject = 'Trả lời phản hồi của bạn | Quán Chị Kòi | By Hồng Điệp ';
         $mail->Body = $htmlStr;
         $mail->AltBody = $htmlStr; //None HTML
         $result = $mail->send();

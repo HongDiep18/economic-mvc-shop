@@ -1,6 +1,6 @@
 # Welcome to New PHP MVC by HONGDIEP
 
-The NEW-MVC-SHOP is a free e-commerce website project for everyone to use. It is built in pure PHP language. And anyone can use it.
+The ECONOMIC-MVC-SHOP is a free e-commerce website project for everyone to use. It is built in pure PHP language. And anyone can use it.
 - Customers do not need to know much about technology.
 - Powerful system, many useful functions.
 - Easy to access, easy to use.
@@ -8,9 +8,17 @@ The NEW-MVC-SHOP is a free e-commerce website project for everyone to use. It is
 ## Support the project
 Support this project :stuck_out_tongue_winking_eye: :pray:
 <p align="center">
-    <a href="https://www.paypal.me/tanhongcom" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" data-origin="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="PayPal buymeacoffee TanHongIT"></a>
+    <a href="https://www.paypal.me/hongdiep" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" data-origin="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="PayPal buymeacoffee HongDiep"></a>
 </p>
 
+user :
+    testna | test@gmail.com : 123456789
+    hongdiepii | meowwww@gmail.com.com : 123456789
+Mod :
+    eyteyt | moderator@gmail.com : 12345678
+
+Admin:
+    admin | admin@gmail.com : 1234567890
 # 1. Configuration requirements
 > - Web Server: Apache
 > - Version PHP >= 8.0
@@ -54,7 +62,7 @@ Support this project :stuck_out_tongue_winking_eye: :pray:
 
 # 4. Download Database
 
-This is the path to the database file for you to download: [`/admin/database/***.sql`](https://github.com/TanHongIT/new-mvc-shop/tree/master/admin/database)
+This is the path to the database file for you to download: [`/admin/database/***.sql`](https://github.com/hongdiep/economic-mvc-shop/tree/master/admin/database)
 
 Create a new database on **PHPMyAdmin** at your server, then import the .sql file that you just downloaded.
 
@@ -63,7 +71,7 @@ Create a new database on **PHPMyAdmin** at your server, then import the .sql fil
 Clone the project to your computer:
 
 ```bash
-git clone https://github.com/tanhongit/new-mvc-shop.git
+git clone https://github.com/hongdiep/economic-mvc-shop.git
 ```
 
 Copy the .env.example file to .env:
@@ -94,14 +102,14 @@ PATH_URL_IMG_PRODUCT=public/upload/products/
 
 > **Note:**
 > 
-> The path of the config file that is using these environment variables is located at: [`/lib/config/config.php`](https://github.com/TanHongIT/new-mvc-shop/tree/master/lib/config/config.php)
+> The path of the config file that is using these environment variables is located at: [`/lib/config/config.php`](https://github.com/hongdiep/economic-mvc-shop/tree/master/lib/config/config.php)
 
 ## 6.2 Edit Connect Database
 
 You need to change the connection information and import sql file to the database after you have cloned my repository so that the website can work.
 
 This is the path to the sql file for you to import to your database:
-[`/admin/database/***.sql`](https://github.com/TanHongIT/new-mvc-shop/tree/master/admin/database)
+[`/admin/database/***.sql`](https://github.com/hongdiep/economic-mvc-shop/tree/master/admin/database)
 
 And change the connection information to match your database in .env file:
 
@@ -110,12 +118,12 @@ DB_HOST=db_server
 DB_PORT=3306
 DB_USER=root
 DB_PASS=root
-DB_NAME=new_mvc_shop_db
+DB_NAME=economic_mvc_shop_db
 ```
 
 > **Note:**
 >
-> The path of the database config file that is using these environment variables is located at: [`/lib/config/database.php`](https://github.com/TanHongIT/new-mvc-shop/tree/master/lib/config/database.php)
+> The path of the database config file that is using these environment variables is located at: [`/lib/config/database.php`](https://github.com/hongdiep/economic-mvc-shop/tree/master/lib/config/database.php)
 
 ## 6.3 Edit .htaccess
 
@@ -132,11 +140,11 @@ RewriteBase /
 >
 >**EXAMPLE**:
 >```
->http://localhost/new-mvc-shop/
+>http://localhost/economic-mvc-shop/
 >``` 
 > So we will have:
 > ```
-> RewriteBase /new-mvc-shop/
+> RewriteBase /economic-mvc-shop/
 > ```
 
 ## 6.4 Edit SMTP Mail
@@ -161,7 +169,7 @@ Tips: https://support.google.com/accounts/answer/185833?hl=en
 
 > **Note:**
 >
-> The path of the email config file that is using these environment variables is located at: [`/lib/config/sendmail.php`](https://github.com/TanHongIT/new-mvc-shop/tree/master/lib/config/sendmail.php)
+> The path of the email config file that is using these environment variables is located at: [`/lib/config/sendmail.php`](https://github.com/hongdiep/economic-mvc-shop/tree/master/lib/config/sendmail.php)
 
 # 7. Install with Docker (Optional)
 
@@ -178,7 +186,7 @@ Please edit the following information in the **.env** file:
 **Example:**
 
 ```dotenv
-APP_NAME=nms
+APP_NAME=ems
 
 APP_PORT=85
 SSL_PORT=443 # (optional)
@@ -186,7 +194,7 @@ SSL_PORT=443 # (optional)
 MYSQL_PORT=3307
 MYSQL_USER=root
 MYSQL_ROOT_PASS=root
-MYSQL_DB=new-mvc-shop
+MYSQL_DB=economic_mvc_shop_db
 MYSQL_PASS=root
 
 PHPMYADMIN_PORT=8081
@@ -223,15 +231,15 @@ Finally, you need to import the database file into the database container.
 
 # 8. Demo
 
-1. Front-End: [https://chikoiquan.tanhongit.com](https://chikoiquan.tanhongit.com)
-2. Back-End: [https://chikoiquan.tanhongit.com/admin.php](https://chikoiquan.tanhongit.com/admin.php)
+1. Front-End: [https://chikoiquan.hongdiep.com](https://chikoiquan.hongdiep.com)
+2. Back-End: [https://chikoiquan.hongdiep.com/admin.php](https://chikoiquan.hongdiep.com/admin.php)
 
 > **_Account login on Backend_**
 > 
 > ```
 > user :
 >     username: testna      | email: test@gmail.com        | password: 123456789
->     username: tanhongitii | email: meowwww@gmail.com.com | password: 123456789
+>     username: hongdiepii | email: meowwww@gmail.com.com | password: 123456789
 > Mod :
 >     username: eyteyt      | email: moderator@gmail.com   | password: 12345678
 > 

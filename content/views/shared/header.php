@@ -47,7 +47,7 @@ if (isset($url_product)) {
 	<base href="<?= PATH_URL; ?>" />
 	<meta charset="utf-8">
 	<title><?= isset($title) ? $title : 'Quán Chị Kòi'; ?></title>
-	<meta name="keywords" content="Quán Chị Kòi - Phát Triển Bởi TanHongIT" />
+	<meta name="keywords" content="Quán Chị Kòi - Phát Triển Bởi HongDiep" />
 	<meta name="description" content="Quán Chị Kòi">
 	<meta name="author" content="chikoiquan.com">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">

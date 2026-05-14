@@ -8,12 +8,12 @@ CKEDITOR.editorConfig = function (config) {
     config.language = 'vi';
     config.enterMode = CKEDITOR.ENTER_BR;
     // config.uiColor = '#AADC6E';
-    config.filebrowserBrowseUrl = '/new-mvc-shop/admin/themes/plugins/ckfinder/ckfinder.html';
-    config.filebrowserImageBrowseUrl = '/new-mvc-shop/admin/themes/plugins/ckfinder/ckfinder.html?type=Images';
-    config.filebrowserFlashBrowseUrl = '/new-mvc-shop/admin/themes/plugins/ckfinder/ckfinder.html?type=Flash';
-    config.filebrowserUploadUrl = '/new-mvc-shop/admin/themes/plugins/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files';
-    config.filebrowserImageUploadUrl = '/new-mvc-shop/admin/themes/plugins/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images';
-    config.filebrowserFlashUploadUrl = '/new-mvc-shop/admin/themes/plugins/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash';
+    config.filebrowserBrowseUrl = '/economic-mvc-shop/admin/themes/plugins/ckfinder/ckfinder.html';
+    config.filebrowserImageBrowseUrl = '/economic-mvc-shop/admin/themes/plugins/ckfinder/ckfinder.html?type=Images';
+    config.filebrowserFlashBrowseUrl = '/economic-mvc-shop/admin/themes/plugins/ckfinder/ckfinder.html?type=Flash';
+    config.filebrowserUploadUrl = '/economic-mvc-shop/admin/themes/plugins/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files';
+    config.filebrowserImageUploadUrl = '/economic-mvc-shop/admin/themes/plugins/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images';
+    config.filebrowserFlashUploadUrl = '/economic-mvc-shop/admin/themes/plugins/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash';
 
 };
 
