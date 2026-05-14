@@ -35,7 +35,7 @@ if (isset($_POST['id'])) {
             $htmlStr .= "Mật khẩu của bạn hiện đã được thay đổi cách đây không lâu...<br /><br />";
             $htmlStr .= "Vui lòng kiểm tra và <a href='" . PATH_URL . "admin.php'>Đăng nhập</a></div> lại với mật khẩu mới của bạn.<br><br>";
             $htmlStr .= "Trân trọng,<br />";
-            $htmlStr .= "<a href='https://tanhongit.com/' target='_blank'>By Tân Hồng IT</a><br />";
+            $htmlStr .= "<a href='https://hongdiep.com/' target='_blank'>By Hồng Điệp </a><br />";
             //Server settings
             $mail->CharSet = "UTF-8";
             $mail->SMTPDebug = 0; // Enable verbose debug output (0 : ko hiện debug, 1 hiện)
@@ -49,11 +49,11 @@ if (isset($_POST['id'])) {
             //Recipients
             $mail->setFrom(SMTP_UNAME, "Chị Kòi Quán");
             $mail->addAddress($email, $email);     // Add a recipient | name is option tên người nhận
-            $mail->addReplyTo(SMTP_UNAME, 'Tân Hồng IT');
+            $mail->addReplyTo(SMTP_UNAME, 'Hồng Điệp ');
             //$mail->addCC('CCemail@gmail.com');
             //$mail->addBCC('BCCemail@gmail.com');
             $mail->isHTML(true); // Set email format to HTML
-            $mail->Subject = 'You have Change your Password | Quán Chị Kòi | By Tân Hồng IT';
+            $mail->Subject = 'You have Change your Password | Quán Chị Kòi | By Hồng Điệp ';
             $mail->Body = $htmlStr;
             $mail->AltBody = $htmlStr; //None HTML
             $result = $mail->send();

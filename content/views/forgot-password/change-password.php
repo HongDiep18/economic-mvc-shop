@@ -57,7 +57,7 @@ if (isset($_GET['id'])) {
                         <script>
                             document.write(new Date().getFullYear().toString())
                         </script>,
-                        <span>Phát triển bởi <a href="https://tanhongit.com" target="_blank">TanHongIT</a></span>
+                        <span>Phát triển bởi <a href="https://hongdiep.com" target="_blank">HongDiep</a></span>
                     </div>
                 </div>
                 <div class="col-lg-8 col-sm-12">

@@ -64,7 +64,7 @@
             <div class="row">
                 <p>© Copyright <script>
                         document.write(new Date().getFullYear().toString())
-                    </script> - Phát triển bởi <span><a href="https://tanhongit.com">TanHongIT</a></span>.</p>
+                    </script> - Phát triển bởi <span><a href="https://hongdiep.com">HongDiep</a></span>.</p>
             </div>
         </div>
     </div>

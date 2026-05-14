@@ -60,7 +60,7 @@ Examples:
 
 ATTENTION: The trailing slash is required.
 */
-$baseUrl = '/new-mvc-shop/public/upload/ckeditor';
+$baseUrl = '/economic-mvc-shop/public/upload/ckeditor';
 
 /*
 $baseDir : the path to the local directory (in the server) which points to the

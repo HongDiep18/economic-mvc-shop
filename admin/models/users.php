@@ -81,7 +81,7 @@ function changePassword($id, $newpassword, $currentPassword)
             $htmlStr .= "Mật khẩu của bạn hiện đã được thay đổi cách đây không lâu...<br /><br />";
             $htmlStr .= "Vui lòng kiểm tra và <a href='" . PATH_URL . "admin.php'>Đăng nhập</a></div> lại với mật khẩu mới của bạn.<br><br>";
             $htmlStr .= "Trân trọng,<br />";
-            $htmlStr .= "<a href='https://tanhongit.com/' target='_blank'>By Tân Hồng IT</a><br />";
+            $htmlStr .= "<a href='https://hongdiep.com/' target='_blank'>By Hồng Điệp </a><br />";
             //Server settings
             $mail->CharSet = "UTF-8";
             $mail->SMTPDebug = 0; // Enable verbose debug output (0 : ko hiện debug, 1 hiện)
@@ -95,11 +95,11 @@ function changePassword($id, $newpassword, $currentPassword)
             //Recipients
             $mail->setFrom(SMTP_UNAME, "Chị Kòi Quán");
             $mail->addAddress($email, $email);     // Add a recipient | name is option tên người nhận
-            $mail->addReplyTo(SMTP_UNAME, 'Tân Hồng IT');
+            $mail->addReplyTo(SMTP_UNAME, 'Hồng Điệp ');
             //$mail->addCC('CCemail@gmail.com');
             //$mail->addBCC('BCCemail@gmail.com');
             $mail->isHTML(true); // Set email format to HTML
-            $mail->Subject = 'You have Change your Password | Quán Chị Kòi | By Tân Hồng IT';
+            $mail->Subject = 'You have Change your Password | Quán Chị Kòi | By Hồng Điệp ';
             $mail->Body = $htmlStr;
             $mail->AltBody = $htmlStr; //None HTML
             $result = $mail->send();
@@ -182,7 +182,7 @@ function user_update()
                 $htmlStr .= "<a href='{$verificationLink}' target='_blank' style='padding:1em; font-weight:bold; background-color:blue; color:#fff;'>VERIFY EMAIL</a><br /><br /><br />";
                 $htmlStr .= "Cảm ơn bạn đã tham gia cùng website bán hàng của quán Chị Kòi.<br><br>";
                 $htmlStr .= "Trân trọng,<br />";
-                $htmlStr .= "<a href='https://tanhongit.com/' target='_blank'>By Tân Hồng IT</a><br />";
+                $htmlStr .= "<a href='https://hongdiep.com/' target='_blank'>By Hồng Điệp </a><br />";
                 //Server settings
                 $mail->CharSet = "UTF-8";
                 $mail->SMTPDebug = 0; // Enable verbose debug output (0 : ko hiện debug, 1 hiện)
@@ -200,7 +200,7 @@ function user_update()
                 //$mail->addCC('CCemail@gmail.com');
                 //$mail->addBCC('BCCemail@gmail.com');
                 $mail->isHTML(true); // Set email format to HTML
-                $mail->Subject = 'Verification New Email | Quán Chị Kòi | Change Email | By Tân Hồng IT';
+                $mail->Subject = 'Verification New Email | Quán Chị Kòi | Change Email | By Hồng Điệp ';
                 $mail->Body = $htmlStr;
                 $mail->AltBody = $htmlStr; //None HTML
                 $result = $mail->send();
@@ -282,7 +282,7 @@ function user_add()
             $htmlStr .= "<a href='{$verificationLink}' target='_blank' style='padding:1em; font-weight:bold; background-color:blue; color:#fff;'>VERIFY EMAIL</a><br /><br /><br />";
             $htmlStr .= "Cảm ơn bạn đã tham gia thành một thành viên mới trong website bán hàng của quán Chị Kòi.<br><br>";
             $htmlStr .= "Trân trọng,<br />";
-            $htmlStr .= "<a href='https://tanhongit.com/' target='_blank'>By Tân Hồng IT</a><br />";
+            $htmlStr .= "<a href='https://hongdiep.com/' target='_blank'>By Hồng Điệp </a><br />";
             //Server settings
             $mail->CharSet = "UTF-8";
             $mail->SMTPDebug = 0; // Enable verbose debug output (0 : ko hiện debug, 1 hiện)
@@ -300,7 +300,7 @@ function user_add()
             //$mail->addCC('CCemail@gmail.com');
             //$mail->addBCC('BCCemail@gmail.com');
             $mail->isHTML(true); // Set email format to HTML
-            $mail->Subject = 'Verification Users | Quán Chị Kòi | Subscription | By Tân Hồng IT';
+            $mail->Subject = 'Verification Users | Quán Chị Kòi | Subscription | By Hồng Điệp ';
             $mail->Body = $htmlStr;
             $mail->AltBody = $htmlStr; //None HTML
             $result = $mail->send();

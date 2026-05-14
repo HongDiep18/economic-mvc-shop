@@ -48,7 +48,7 @@ function backup_db()
     chmod($folder, 0777);
     // Đặt tên file
     $date = date('Y-m-d-H-i-s', time() + 7 * 3600);
-    $filename = $folder . "db-backup-tanhongit-" . $date;
+    $filename = $folder . "db-backup-hongdiep-" . $date;
     //Tạo file .sql
     $handle = fopen($filename . '.sql', 'w+');
     fwrite($handle, ($return));

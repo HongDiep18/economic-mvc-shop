@@ -1,8 +1,8 @@
 <?php
 /**
- * Developed by: TanHongIT
- * Website: https://tanhongit.com - https://tanhongit.net
- * Github: https://github.com/TanHongIT
+ * Developed by: HongDiep
+ * Website: https://hongdiep.com - https://hongdiep.net
+ * Github: https://github.com/hongdiep
  */
 
 use Dotenv\Dotenv;

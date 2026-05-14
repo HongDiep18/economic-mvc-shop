@@ -58,7 +58,7 @@ $contacts = getRecord('contacts', 1);
                         <script>
                             document.write(new Date().getFullYear().toString())
                         </script>,
-                        <span>Thiết kế: <a href="https://thememakker.com/" target="_blank">ThemeMakker</a></span><span> - Phát triển bởi <a href="https://tanhongit.com" target="_blank">TanHongIT</a></span>
+                        <span>Thiết kế: <a href="https://thememakker.com/" target="_blank">ThemeMakker</a></span><span> - Phát triển bởi <a href="https://hongdiep.com" target="_blank">HongDiep</a></span>
                     </div>
                 </div>
                 <div class="col-lg-8 col-sm-12">

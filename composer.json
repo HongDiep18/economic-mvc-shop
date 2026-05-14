@@ -1,8 +1,8 @@
 {
-  "name": "tanhongit/new-mvc-shop",
-  "description": "new-mvc-shop project is a simple project to help you understand the MVC model in PHP",
+  "name": "hongdiep/economic-mvc-shop",
+  "description": "economic-mvc-shop project is a simple project to help you understand the MVC model in PHP",
   "keywords": [
-    "new-mvc-shop",
+    "economic-mvc-shop",
     "mvc",
     "php",
     "php-mvc",
@@ -11,12 +11,11 @@
     "mvc-shop"
   ],
   "type": "project",
-  "homepage": "https://tanhongit.com",
+  "homepage": "https://github.com/hongdiep",
   "authors": [
     {
-      "name": "Tan Nguyen",
-      "email": "tannp27@gmail.com",
-      "homepage": "https://tanhongit.com"
+      "name": "Hong Diep",
+      "homepage": "https://github.com/hongdiep"
     }
   ],
   "license": "MIT",
@@ -31,7 +30,7 @@
     "phpstan/phpstan": "^1.10.39"
   },
   "support": {
-    "issues": "https://github.com/tanhongit/new-mvc-shop/issues"
+    "issues": "https://github.com/hongdiep/economic-mvc-shop/issues"
   },
   "scripts": {
     "analyse": "vendor/bin/phpstan",

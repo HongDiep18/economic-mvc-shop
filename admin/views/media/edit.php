@@ -44,7 +44,7 @@
                                 <div class="row clearfix">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <input name="name" type="text" value="<?= $mediaInfo ? $mediaInfo['media_name'] : ''; ?>" class="form-control" id="name" placeholder="VD: tanhongit" required="" />
+                                            <input name="name" type="text" value="<?= $mediaInfo ? $mediaInfo['media_name'] : ''; ?>" class="form-control" id="name" placeholder="VD: hongdiep" required="" />
                                         </div>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@
                                 <div class="row clearfix">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <input type="text" value="<?= $mediaInfo ? $mediaInfo['slug'] : ''; ?>" class="form-control" id="name" placeholder="VD: tanhongit" required="" disabled />
+                                            <input type="text" value="<?= $mediaInfo ? $mediaInfo['slug'] : ''; ?>" class="form-control" id="name" placeholder="VD: hongdiep" required="" disabled />
                                         </div>
                                     </div>
                                 </div>

@@ -34,7 +34,7 @@
                         <div class="row clearfix">
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <input name="name" type="text" maxlength="150" value="<?= $menuFooter ? $menuFooter['menu_name'] : ''; ?>" class="form-control" id="name" placeholder="VD: tanhongit.com, Trang chủ Tân Hồng IT..." required="" />
+                                    <input name="name" type="text" maxlength="150" value="<?= $menuFooter ? $menuFooter['menu_name'] : ''; ?>" class="form-control" id="name" placeholder="VD: hongdiep.com, Trang chủ Hồng Điệp ..." required="" />
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@
                         <div class="row clearfix">
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <input name="menu_url" maxlength="255" type="text" value="<?= $menuFooter ? $menuFooter['menu_url'] : ''; ?>" class="form-control" id="name" placeholder="https://tanhongit.com..."/>
+                                    <input name="menu_url" maxlength="255" type="text" value="<?= $menuFooter ? $menuFooter['menu_url'] : ''; ?>" class="form-control" id="name" placeholder="https://hongdiep.com..."/>
                                 </div>
                             </div>
                         </div>
