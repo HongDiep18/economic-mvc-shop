@@ -30,7 +30,7 @@ Admin:
 # 2. Technology
 - Pure PHP language
 
-# 3. Feature
+# 3. Feature:
 
 ```
 1. FRONT-END
