@@ -17,7 +17,7 @@ $newProducts = getAll('products', [
 ]);
 ?>
 <aside class="sidebar">
-    <h3 style="font-weight: bold;">Tìm kiếm</h3>
+    <h3>Tìm kiếm</h3>
     <form action="<?= PATH_URL; ?>search/" method="get">
         <div class="input-group input-group-lg">
             <input class="form-control" placeholder="Search..." name="keyword" id="s" type="text">
@@ -27,7 +27,7 @@ $newProducts = getAll('products', [
         </div>
     </form>
     <hr />
-    <h3 style="font-weight: bold;">Danh mục</h3>
+    <h3>Danh mục</h3>
     <?php foreach ($types as $type) { ?>
         <a href="type/<?= $type['id'] . '-' . $type['slug']; ?>"><span class="label label-dark"><?= $type['type_name'] ?></span></a>
     <?php } ?><br>
@@ -38,7 +38,7 @@ $newProducts = getAll('products', [
         <a href="shop/<?= $shop['id'] . '-' . $shop['slug']; ?>"><span class="label label-dark"><?= $shop['category_name'] ?></span></a>
     <?php } ?>
     <hr />
-    <h4 style="font-weight: bold;">SẢN PHẨM HÀNG ĐẦU</h4>
+    <h4>SẢN PHẨM HÀNG ĐẦU</h4>
     <ul class="simple-post-list">
         <?php foreach ($topProducts as $product) : ?>
             <li>
@@ -63,7 +63,7 @@ $newProducts = getAll('products', [
         <?php endforeach; ?>
     </ul>
     <?php if (isset($get_sidebar_with_only_product)) { ?>
-        <h4 style="font-weight: bold;">SẢN PHẨM MỚI NHẤT</h4>
+        <h4>SẢN PHẨM MỚI NHẤT</h4>
         <ul class="simple-post-list">
             <?php foreach ($newProducts as $product) : ?>
                 <li>
