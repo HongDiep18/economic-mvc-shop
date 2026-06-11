@@ -53,8 +53,8 @@
 							</li>
 						<?php endforeach; ?>
 					</ul>
-					<div style="text-align: center;" class="col-md-12">
-						<a href="type/3-san-pham-dang-giam-gia" class="btn btn-primary">Xem thêm →</a>
+					<div class="col-md-12 view-more-wrap">
+						<a href="type/3-san-pham-dang-giam-gia" class="btn btn-primary">Xem thêm <i class="fa fa-long-arrow-right"></i></a>
 					</div>
 				</div>
 			</div>
