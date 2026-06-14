@@ -1,25 +1,30 @@
 # Welcome to New PHP MVC
 
 The ECONOMIC-MVC-SHOP is a free e-commerce website project for everyone to use. It is built in pure PHP language. And anyone can use it.
+
 - Customers do not need to know much about technology.
 - Powerful system, many useful functions.
 - Easy to access, easy to use.
 
 ## Support the project
+
 Support this project :stuck_out_tongue_winking_eye: :pray:
+
 <p align="center">
     <a href="https://www.paypal.me/hongdiep" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" data-origin="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="PayPal buymeacoffee HongDiep"></a>
 </p>
 
 user :
-    testna | test@gmail.com : 123456789
-    hongdiepii | meowwww@gmail.com.com : 123456789
+testna | test@gmail.com : 123456789
+hongdiepii | meowwww@gmail.com.com : 123456789
 Mod :
-    eyteyt | moderator@gmail.com : 12345678
+eyteyt | moderator@gmail.com : 12345678
 
 Admin:
-    admin | admin@gmail.com : 1234567890
+admin | admin@gmail.com : 1234567890
+
 # 1. Configuration requirements
+
 > - Web Server: Apache
 > - Version PHP >= 8.0
 > - Composer >= 2.0
@@ -28,6 +33,7 @@ Admin:
 > - MySQL >= 8.0 (or MariaDB >= 10.0)
 
 # 2. Technology
+
 - Pure PHP language
 
 # 3. Feature:
@@ -45,7 +51,7 @@ Admin:
     - Checkout, PlaceOrder,...
     ...
 
-===================================================================
+====================================================================
 
 2. BACKEND-ADMIN
     - Admin roles, permission
@@ -56,7 +62,7 @@ Admin:
     - Feedback manager  (Create, delete, update)
     - User management   (Create, delete, update)
     - Template manager  (Create, update)
-    - Backup database 
+    - Backup database
     ...
 ```
 
@@ -101,7 +107,7 @@ PATH_URL_IMG_PRODUCT=public/upload/products/
 ```
 
 > **Note:**
-> 
+>
 > The path of the config file that is using these environment variables is located at: [`/lib/config/config.php`](https://github.com/hongdiep/economic-mvc-shop/tree/master/lib/config/config.php)
 
 ## 6.2 Edit Connect Database
@@ -130,6 +136,7 @@ DB_NAME=economic_mvc_shop_db
 Change RewriteBase - Recommend the path that matches your host address.
 
 So we will have:
+
 ```
 RewriteBase /
 ```
@@ -138,19 +145,22 @@ RewriteBase /
 
 > **Note**: This applies to the case where your project is in a subfolder, and you want it accessible from a subpath URL.
 >
->**EXAMPLE**:
->```
->http://localhost/economic-mvc-shop/
->``` 
+> **EXAMPLE**:
+>
+> ```
+> http://localhost/economic-mvc-shop/
+> ```
+>
 > So we will have:
+>
 > ```
 > RewriteBase /economic-mvc-shop/
 > ```
 
 ## 6.4 Edit SMTP Mail
 
-> The third thing: 
-You need to change the information about **SMTP Mail** to be able to use some functions about user account authentication, change passwords, notify users, ...
+> The third thing:
+> You need to change the information about **SMTP Mail** to be able to use some functions about user account authentication, change passwords, notify users, ...
 
 Update the following information in the **.env** file:
 
@@ -165,7 +175,7 @@ Change the value of the constant **SMTP_UNAME** and **SMTP_PWORD** to match the 
 
 Tips: https://support.google.com/accounts/answer/185833?hl=en
 
-**Where SMTP_PWORD is the application password for your _gmail.com_ account.**
+**Where SMTP*PWORD is the application password for your \_gmail.com* account.**
 
 > **Note:**
 >
@@ -173,8 +183,8 @@ Tips: https://support.google.com/accounts/answer/185833?hl=en
 
 # 7. Install with Docker (Optional)
 
-> Note: 
-> 
+> Note:
+>
 > **Please skip this section if you have already installed the project in the above section.**
 
 If you want to run this project with Docker, you can edit .env file and use the following command:
@@ -235,14 +245,14 @@ Finally, you need to import the database file into the database container.
 2. Back-End: [https://chikoiquan.hongdiep.com/admin.php](https://chikoiquan.hongdiep.com/admin.php)
 
 > **_Account login on Backend_**
-> 
+>
 > ```
 > user :
 >     username: testna      | email: test@gmail.com        | password: 123456789
 >     username: hongdiepii | email: meowwww@gmail.com.com | password: 123456789
 > Mod :
 >     username: eyteyt      | email: moderator@gmail.com   | password: 12345678
-> 
+>
 > Admin:
 >     username: admin       | email: admin@gmail.com       | password: 1234567890
 > ```
