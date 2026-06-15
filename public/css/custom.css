@@ -111,7 +111,6 @@ select:focus {
    SECTION HEADERS (product list pages)
    ========================================================= */
 
-.shop > .main > .container > .row > .col-md-12 > .row > .col-md-12 > h2,
 .main.shop .col-md-12 h2 {
     position: relative;
     display: inline-block;
@@ -137,6 +136,24 @@ select:focus {
     color: #0088cc;
 }
 
+/* Section h2 link — inherit color, no underline */
+.main.shop .col-md-12 h2 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main.shop .col-md-12 h2 a:hover {
+    color: #0088cc;
+    text-decoration: none;
+}
+
+/* Section divider */
+.main.shop hr.tall {
+    margin: 28px 0 20px;
+    border: none;
+    border-top: 1px solid #eaeaea;
+}
+
 /* "Xem thêm" view-more buttons */
 .view-more-wrap {
     text-align: center;
@@ -148,6 +165,15 @@ select:focus {
     font-size: 13.5px;
     letter-spacing: 0.5px;
     border-radius: 3px;
+}
+
+.view-more-wrap .btn-primary i {
+    margin-left: 4px;
+    transition: margin-left 0.2s ease;
+}
+
+.view-more-wrap .btn-primary:hover i {
+    margin-left: 8px;
 }
 
 /* =========================================================
@@ -367,6 +393,17 @@ aside.sidebar .label.label-dark:hover {
 /* =========================================================
    FOOTER
    ========================================================= */
+
+.footer-copyright {
+    text-align: center;
+    padding: 16px 0;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-copyright p {
+    margin: 0;
+    font-size: 0.88em;
+}
 
 #footer h4,
 #footer h5 {

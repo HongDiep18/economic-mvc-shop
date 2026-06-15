@@ -19,7 +19,7 @@
 									</a>
 								<?php endif; ?>
 								<span class="product-thumb-info">
-									<form style="text-align: center;" action="cart/add/<?= $saleoffProduct['id']; ?>" method="post">
+									<form action="cart/add/<?= $saleoffProduct['id']; ?>" method="post">
 										<input type="hidden" name="number_cart" value="1">
 										<a class="add-to-cart-product"><button type="submit" href="cart/add/<?= $saleoffProduct['id']; ?>"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button></a>
 									</form>
