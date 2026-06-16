@@ -35,7 +35,7 @@
 									<span class="product-thumb-info-content">
 										<a href="product/<?= $saleoffProduct['id']; ?>-<?= $saleoffProduct['slug']; ?>/">
 										<h4 title="<?= $saleoffProduct['product_name']; ?>"><?php if (strlen($saleoffProduct['product_name']) > 50) {
-										    echo substr($saleoffProduct['product_name'], 0, 57) . '...';
+										    echo substr($saleoffProduct['product_name'], 0, 55) . '...';
 										} else {
 										    echo $saleoffProduct['product_name'];
 										}  ?></h4>
