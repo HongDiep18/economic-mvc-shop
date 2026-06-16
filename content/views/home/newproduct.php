@@ -1,5 +1,6 @@
 <div role="main" class="main shop">
 	<div class="container">
+		<hr class="tall">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="row">
@@ -34,14 +35,14 @@
 									<span class="product-thumb-info-content">
 										<a href="product/<?= $newProduct['id']; ?>-<?= $newProduct['slug']; ?>/">
 											<h4 title="<?= $newProduct['product_name']; ?>"><?php if (strlen($newProduct['product_name']) > 50) {
-											    echo substr($newProduct['product_name'], 0, 57) . '...';
+											    echo substr($newProduct['product_name'], 0, 55) . '...';
 											} else {
 											    echo $newProduct['product_name'];
 											}  ?></h4>
 											<span class="price">
 												<?php if ($newProduct['saleoff'] != 0) { ?>
-													<del title="<?= $newProduct['product_name']; ?>"><span class="amount"><?= number_format($newProduct['product_price'], 0, ',', '.');  ?></span></del>
-													<ins title="<?= $newProduct['product_name']; ?>"><span class="amount"><?= number_format(($newProduct['product_price']) - (($newProduct['product_price'] * $newProduct['percentoff']) / 100), 0, ',', '.'); ?> VNĐ</span></ins>
+													<del><span class="amount"><?= number_format($newProduct['product_price'], 0, ',', '.');  ?></span></del>
+													<ins><span class="amount"><?= number_format(($newProduct['product_price']) - (($newProduct['product_price'] * $newProduct['percentoff']) / 100), 0, ',', '.'); ?> VNĐ</span></ins>
 												<?php } else { ?>
 													<ins><span class="amount"><?= number_format($newProduct['product_price'], 0, ',', '.');  ?> VNĐ</span></ins>
 												<?php } ?>
