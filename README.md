@@ -14,7 +14,7 @@ Support this project :stuck_out_tongue_winking_eye: :pray:
     <a href="https://www.paypal.me/hongdiep" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" data-origin="https://img.shields.io/badge/Donate-PayPal-green.svg" alt="PayPal buymeacoffee HongDiep"></a>
 </p>
 
-user :
+account user :
 testna | test@gmail.com : 123456789
 hongdiepii | meowwww@gmail.com.com : 123456789
 Mod :
