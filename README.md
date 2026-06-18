@@ -16,7 +16,8 @@ Support this project :stuck_out_tongue_winking_eye: :pray:
 
 account user :
 testna | test@gmail.com : 123456789
-hongdiepii | meowwww@gmail.com.com : 123456789
+hongdiepii | meowwww@gmail.com.com :
+
 Mod :
 eyteyt | moderator@gmail.com : 12345678
 
