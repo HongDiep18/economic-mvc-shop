@@ -54,7 +54,7 @@ admin | admin@gmail.com : 1234567890
 
 ====================================================================
 
-2. BACKEND-ADMIN
+2. BACKEND-ADMIN ==
     - Admin roles, permission
     - Product manager   (Create, delete, update)
     - Category manager  (Create, delete, update)
